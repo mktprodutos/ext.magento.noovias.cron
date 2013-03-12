@@ -1,0 +1,24 @@
+{
+    "name": "noovias/ext.magento.noovias.cron",
+    "version": "1.0.4",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+
+    "require": {
+        "noovias/ext.magento.noovias.extensions": ">=0.1.1"
+    },
+
+    "minimum-stability":"dev",
+    "config": {
+        "vendor-dir": "Packages"
+    },
+
+    "extra":{
+        "magento-root-dir":"www",
+        "skip-package-deployment": true
+    },
+
+    "repositories": [
+        { "type":"composer", "url":"http://packages.firegento.com" }
+    ]
+}
